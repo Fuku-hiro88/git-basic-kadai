@@ -1,3 +1,4 @@
+PS C:\Users\ffuu9> cd D:\git_kadai1
 PS D:\git_kadai1> mkdir git_challenge
 
 
@@ -24,3 +25,4 @@ PS D:\git_kadai1\git_challenge> git commit -m "日本語訳を追記"
  1 file changed, 0 insertions(+), 0 deletions(-)
 PS D:\git_kadai1\git_challenge> git log --oneline
 268e3f7 (HEAD -> main) 日本語訳を追記
+2345e93 hell_world.txtを追加
