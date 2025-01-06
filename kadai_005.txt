@@ -1,0 +1,26 @@
+PS D:\git_kadai1> mkdir git_challenge
+
+
+    ディレクトリ: D:\git_kadai1
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----        2025/01/06     14:48                git_challenge
+
+
+PS D:\git_kadai1> cd git_challenge   
+PS D:\git_kadai1\git_challenge> git init
+Initialized empty Git repository in D:/git_kadai1/git_challenge/.git/
+PS D:\git_kadai1\git_challenge> echo "Hell,world!" >> hell_world.txt
+PS D:\git_kadai1\git_challenge> git add hell_world.txt
+PS D:\git_kadai1\git_challenge> git commit -m "hell_world.txtを追加"
+[main (root-commit) 2345e93] hell_world.txtを追加
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ create mode 100644 hell_world.txt
+PS D:\git_kadai1\git_challenge> git add hell_world.txt
+PS D:\git_kadai1\git_challenge> git commit -m "日本語訳を追記"      
+[main 268e3f7] 日本語訳を追記
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS D:\git_kadai1\git_challenge> git log --oneline
+268e3f7 (HEAD -> main) 日本語訳を追記
